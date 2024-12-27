@@ -75,7 +75,6 @@ def detect_emotion():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    try:
-        app.run(debug=True)
-    finally:
-        camera.release()
+ 
+     app.run(debug=True)
+
