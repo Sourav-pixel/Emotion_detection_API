@@ -1,0 +1,46 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.Python
+
+# Flask instance folder
+instance/
+
+# Flask config file
+*.env
+
+# IDE or text editor files
+.vscode/
+.idea/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# log files
+*.log
+
+# database files
+*.sqlite3
+
+# package distribution folder
+dist/
+build/
+
+# testing files
+*.coverage
+nosetests.xml
+coverage.xml
+*.cover
+
+# PyCharm settings
+.idea/
